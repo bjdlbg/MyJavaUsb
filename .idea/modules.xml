@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyJavaUsb.iml" filepath="$PROJECT_DIR$/MyJavaUsb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaUSBwithUI/javaUSBwithUI.iml" filepath="$PROJECT_DIR$/javaUSBwithUI/javaUSBwithUI.iml" />
+    </modules>
+  </component>
+</project>

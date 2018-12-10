@@ -10,7 +10,7 @@ public class Win10RxTXTest {
     public static void main ( String[] args ) {
         MainClass rxtx = new MainClass();
         try {
-            rxtx.connect("COM2");
+            rxtx.connect("COM15");
 
             //定义一个工作线程来读取RxTx并在控制台中显示
             Thread readData = new Thread(new Runnable() {
@@ -44,7 +44,7 @@ public class Win10RxTXTest {
                 @Override
                 public void run() {
                     int c = 0;
-                    byte[] buf = new byte[1204];
+                    byte[] buf = new byte[1024];
                     try {
                         while ( ( c = System.in.read(buf)) > -1 )
                         {
